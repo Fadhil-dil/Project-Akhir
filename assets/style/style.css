@@ -14,6 +14,7 @@
 body{
 
     background-color: #F2F4F7;
+    
 }
 
 .container-home{
@@ -125,7 +126,7 @@ nav ul li{
     background-color: white;
     position: absolute;
     top: 690px;
-    right:100px;
+    margin-left: 130px;
     box-shadow: 0px 50px 95px rgb(198, 197, 197);
     border-radius: 40px;
     z-index: 9;
@@ -935,7 +936,7 @@ footer p{
     /* HOME */
 
     /* menejemen pondok */
-    .menejemen-pondok{
+    /* .menejemen-pondok{
         width: 380px;
         position: absolute;
         left: 25px;
@@ -946,11 +947,11 @@ footer p{
         font-weight: bolder;
         padding: 0;
         margin-top: 30px;
-    }
-}
+    } */
+} 
 
 @media screen and (min-width: 850px){
-    .isi-home{
+     .isi-home{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -962,20 +963,20 @@ footer p{
     .isi-home .card-kanan img{
         width: 550px;
         margin-top: 0;
-    }
+    } 
 
     /* MENEJEMEN PONDOK */
     .menejemen-pondok{
         width: 1250px;
         position: absolute;
-        margin-left: 80px;
+        margin-left: 150px;
         top: 690px;
     }
     .menejemen-pondok h1{
         font-size: 40px;
         padding: 100px 100px 60px 100px;
     }
-    
+     
 }
 
     
