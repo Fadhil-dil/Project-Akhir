@@ -1,0 +1,981 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rakkas&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: #F2F4F7;
+}
+
+.container-home{
+    margin: 0;
+    height: 850px;
+    background: rgb(44,155,243);
+    background: linear-gradient(120deg, rgba(44,155,243,1) 21%, rgba(255,255,255,1) 100%);
+    width: 100%;
+    z-index: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+nav{
+    margin: 30px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px 0 20px;
+    font-family: "Cabin";
+    font-weight: 400;
+    transition: 400ms ease;
+
+}
+
+nav li a:hover{
+    color: white;
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+.isi-home{
+    margin-top:75px;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly;
+    flex-direction: row;  
+}
+.card-kiri{
+    float: left;
+    align-content: center;
+}
+
+.isi-home h1{   
+    font-family: "Cabin";
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.isi-home h1 span{
+    color: #FF4A4A;
+}
+
+.isi-home p{
+    font-family: "cabin";
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    
+}
+
+.isi-home .card-kanan{
+    float: right;
+    
+}
+
+.isi-home .card-kiri li a{
+    text-decoration: none;
+    font-family: "Cabin";
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 25px 10px 25px;
+    border-radius: 15px;
+    color: white;
+    background: rgb(255,74,74);
+    background: linear-gradient(175deg, rgba(255,74,74,1) 15%, rgba(255,107,107,1) 71%);
+
+}
+
+.isi-home .card-kiri ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+.menejemen-pondok{
+    width: 1250px;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+    top: 690px;
+    right:100px;
+    box-shadow: 0px 50px 95px rgb(198, 197, 197);
+    border-radius: 40px;
+    z-index: 9;
+    
+}
+
+.menejemen-pondok h1{
+    font-family: "Cabin";
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 100px 100px 60px 100px;
+}
+
+.menejemen-pondok span{
+    color: #FF4A4A;
+}
+
+.usaha{
+    width: 141px;
+    height: 141px;
+    background: rgb(31,138,222);
+    background: linear-gradient(175deg, rgba(31,138,222,1) 15%, rgba(144,201,245,1) 71%);
+    border-radius: 35px;
+    margin: 0 12px 0 12px;
+}
+
+.usaha figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.usaha figcaption{
+    font-family: "Cabin";
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.keuangan{
+    width: 141px;
+    height: 141px;
+    background: rgb(31,138,222);
+    background: linear-gradient(175deg, rgba(31,138,222,1) 15%, rgba(144,201,245,1) 71%);
+    border-radius: 35px;
+    margin: 0 12px 0 12px;
+
+}
+
+.keuangan figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.keuangan figcaption{
+    font-family: "Cabin";
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.kesehatan{
+    width: 141px;
+    height: 141px;
+    background: rgb(31,138,222);
+    background: linear-gradient(175deg, rgba(31,138,222,1) 15%, rgba(144,201,245,1) 71%);
+    border-radius: 35px;
+    margin: 0 12px 0 12px;
+
+}
+
+.kesehatan figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.kesehatan figcaption{
+    font-family: "Cabin";
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.tahfidz{
+    width: 141px;
+    height: 141px;
+    background: rgb(31,138,222);
+    background: linear-gradient(175deg, rgba(31,138,222,1) 15%, rgba(144,201,245,1) 71%);
+    border-radius: 35px;
+    margin: 0 12px 0 12px;
+
+}
+
+.tahfidz figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tahfidz figcaption{
+    font-family: "Cabin";
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.kesantrian{
+    width: 141px;
+    height: 141px;
+    background: rgb(31,138,222);
+    background: linear-gradient(175deg, rgba(31,138,222,1) 15%, rgba(144,201,245,1) 71%);
+    border-radius: 35px;
+    margin: 0 12px 0 12px;
+
+}
+
+.kesantrian figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.kesantrian figcaption{
+    font-family: "Cabin";
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.pelanggaran{
+    width: 141px;
+    height: 141px;
+    background: rgb(31,138,222);
+    background: linear-gradient(175deg, rgba(31,138,222,1) 15%, rgba(144,201,245,1) 71%);
+    border-radius: 35px;
+    margin: 0 12px 0 12px;
+
+
+}
+
+.pelanggaran figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.pelanggaran figcaption{
+    font-family: "Cabin";
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.perizinan{
+    width: 141px;
+    height: 141px;
+    background: rgb(31,138,222);
+    background: linear-gradient(175deg, rgba(31,138,222,1) 15%, rgba(144,201,245,1) 71%);
+    border-radius: 35px;
+    margin: 0 12px 0 12px;
+
+}
+
+.perizinan figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.perizinan figcaption{
+    font-family: "Cabin";
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.rapot{
+    width: 141px;
+    height: 141px;
+    background: rgb(31,138,222);
+    background: linear-gradient(175deg, rgba(31,138,222,1) 15%, rgba(144,201,245,1) 71%);
+    border-radius: 35px;
+    margin: 0 12px 0 12px;
+
+}
+
+.rapot figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.rapot figcaption{
+    font-family: "Cabin";
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.tata-usaha{
+    width: 141px;
+    height: 141px;
+    background: rgb(31,138,222);
+    background: linear-gradient(175deg, rgba(31,138,222,1) 15%, rgba(144,201,245,1) 71%);
+    border-radius: 35px;
+    margin: 0 12px 0 12px;
+
+    
+}
+
+.tata-usaha figure{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tata-usaha figcaption{
+    font-family: "Cabin";
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us p{
+    width: 265px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 20px 30px rgb(215, 214, 214);
+    position: relative;
+    top: 800px;
+    color: #5cb2f5;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 14px;
+    box-sizing: border-box;
+    font-family: "Cabin";
+    font-weight: 500;
+}
+
+.isi-about-us{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.isi-about-us .card-kiri article{
+    position: relative;
+    top: 900px;
+    font-family: "Cabin";
+}
+
+.isi-about-us .card-kiri h1{
+    position: relative;
+    top: 880px;
+    font-family: "Cabin";
+    font-weight: bolder;
+
+}
+
+.isi-about-us .card-kiri span{
+    color: #FF4A4A;
+}
+
+.isi-about-us .card-kanan img{
+    width: 350px;
+    position: relative;
+    top: 900px;
+
+}
+
+/* .background-konten{
+    height: 4170px;
+    position: relative;
+    top: 1010px;
+    z-index: ;
+    background: rgb(242,244,247);
+    background: linear-gradient(180deg, rgba(242,244,247,1) 0%, rgba(78,171,245,1) 28%, rgba(44,155,243,1) 52%, rgba(81,172,245,1) 60%, rgba(242,244,247,1) 100%);
+} */
+
+.masalah-adzsys{
+    margin-top: 1400px;
+
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    background: rgb(242,244,247);
+    background: linear-gradient(180deg, rgba(242,244,247,1) 0%, rgba(78,171,245,1) 39%);
+}
+
+.masalah-adzsys h2{
+    color: white;
+    font-family: "Cabin";
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.masalah-adzsys span{
+    color: #FF4A4A;
+}
+
+.masalah-adzsys p{
+    color: white;
+    font-family: "Cabin";
+    font-size: 17px;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 130px;
+}
+
+
+
+
+.row-1-icon-masalah-adzsys{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon-masalah-adzsys-1 {
+    position: relative;
+    width: 370px;
+    height: 260px;
+    background-size: cover;
+    background-color: #5cb2f5;
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+
+
+    
+    
+}
+
+.icon-masalah-adzsys-1 img{
+    position: absolute;
+    width: 370px;
+    height: 260px;
+    
+}
+
+.icon-masalah-adzsys-1 .icon-silang{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+    left: 135px;
+    top: 38px;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+
+}
+
+.icon-masalah-adzsys-1 figcaption{
+    font-family: "Cabin";
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    margin-top: 80px;
+    
+}
+
+
+.icon-masalah-adzsys-2 {
+    position: relative;
+    width: 370px;
+    height: 260px;
+    background-size: cover;
+    background-color: #5cb2f5;
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+}
+
+.icon-masalah-adzsys-2 img{
+    position: absolute;
+    width: 370px;
+    height: 260px;
+}
+
+.icon-masalah-adzsys-2 .icon-silang{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+    left: 135px;
+    top: 38px;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+
+}
+
+.icon-masalah-adzsys-2 figcaption{
+    font-family: "Cabin";
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    margin-top: 80px;
+
+    
+}
+
+
+.icon-masalah-adzsys-3 {
+    position: relative;
+    width: 370px;
+    height: 260px;
+    background-size: cover;
+    background-color: #5cb2f5;
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+    
+}
+
+.icon-masalah-adzsys-3 img{
+    position: absolute;
+    width: 370px;
+    height: 260px;
+}
+
+.icon-masalah-adzsys-3 .icon-silang{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+    left: 135px;
+    top: 38px;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+
+}
+
+.icon-masalah-adzsys-3 figcaption{
+    font-family: "Cabin";
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    margin-top: 80px;
+
+    
+}
+
+.row-2-icon-masalah-adzsys{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-masalah-adzsys-4 {
+    position: relative;
+    width: 370px;
+    height: 260px;
+    background-size: cover;
+    background-color: #5cb2f5;
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+
+}
+
+.icon-masalah-adzsys-4 img{
+    position: absolute;
+    width: 370px;
+    height: 260px;
+}
+
+.icon-masalah-adzsys-4 .icon-silang{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+    left: 135px;
+    top: 38px;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+
+}
+
+.icon-masalah-adzsys-4 figcaption{
+    font-family: "Cabin";
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    margin-top: 80px;
+
+    
+}
+
+.icon-masalah-adzsys-5 {
+    position: relative;
+    width: 370px;
+    height: 260px;
+    background-size: cover;
+    background-color: #5cb2f5;
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+
+}
+
+.icon-masalah-adzsys-5 img{
+    position: absolute;
+    width: 370px;
+    height: 260px;
+}
+
+.icon-masalah-adzsys-5 .icon-silang{
+    display: flex;
+    justify-content: center;
+    left: 135px;
+    top: 38px;
+    /* margin-top: 30px; */
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.icon-masalah-adzsys-5 figcaption{
+    font-family: "Cabin";
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    margin-top: 80px;
+
+    
+}
+
+.icon-masalah-adzsys-6 {
+    position: relative;
+    width: 370px;
+    height: 260px;
+    background-size: cover;
+    background-color: #5cb2f5;
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+
+}
+
+.icon-masalah-adzsys-6 img{
+    position: absolute;
+    width: 370px;
+    height: 260px;
+}
+
+.icon-masalah-adzsys-6 .icon-silang{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 135px;
+    top: 38px;
+    /* margin-top: 30px; */
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.icon-masalah-adzsys-6 figcaption{
+    font-family: "Cabin";
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    margin-top: 80px;
+
+
+    
+}
+
+.mengatasi-kendala{
+    margin-top: 0px;
+    color: white;
+    height: 700px;
+    font-family: "Cabin";
+    font-size: 35px;
+    text-align: center;
+    background: rgb(78,171,245);
+    background: linear-gradient(180deg, rgba(78,171,245,1) 0%, rgba(30,148,255,1) 100%);
+
+}
+
+.mengatasi-kendala span{
+    color: #FF4A4A;
+}
+
+.mengatasi-kendala p{
+    color: white;
+    font-family: "Cabin";
+    font-size: 24px;
+    text-align: center;
+    margin-top: 65px;
+    
+}
+
+.mengatasi-kendala ul{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.mengatasi-kendala a{
+    font-family: "Cabin";
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 200px;
+    padding: 15px 50px 15px 38px;
+    border-radius: 20px;
+    background: rgb(255,74,74);
+    background: linear-gradient(117deg, rgba(255,74,74,1) 14%, rgba(255,107,107,1) 100%);
+}
+
+/* .keunggulan-fitur{
+    position: absolute;
+    top: 4800px;
+    left: 280px;
+    
+} */
+
+.bersama-adzsys{
+    background-color: #353AA0;
+    height: 458px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.bersama-adzsys .card-kiri h1{
+    font-family: "cabin";
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+.bersama-adzsys .card-kiri p{
+    font-family: "cabin";
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.bersama-adzsys .card-kiri p a{
+    background: rgb(78,171,245);
+    background: linear-gradient(180deg, rgba(78,171,245,1) 0%, rgba(30,148,255,1) 100%);
+    padding: 9px 28px 9px 28px;
+    border-radius: 15px;
+    font-size: 17px;
+    margin-top: 40px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.bersama-adzsys .card-kiri a img{
+    margin-top: 5%;
+    width: 50%;
+}
+
+.bersama-adzsys .card-kanan img{
+
+}
+
+
+.container-1{
+    height: 300px;
+    width: 100%;
+    background: rgb(78,171,245);
+background: linear-gradient(180deg, rgba(78,171,245,1) 100%, rgba(30,148,255,1) 100%);
+}
+
+
+
+footer{
+    height: 40px;
+    background-color: #b6b6b6;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+footer p{
+    font-family: "Montserrat";
+    color: rgb(58, 58, 58);
+    font-weight: 400;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 350px){
+    /* HOME */
+    .isi-home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .isi-home .card-kiri{
+        text-align: center;
+    }
+    .isi-home .card-kanan{
+        text-align: center;
+    }
+    .isi-home .card-kanan img{
+        width: 350px;
+        margin-top: 40px;
+    }
+    .isi-home .card-kiri h1{
+        font-size: 30px;
+    }
+    header img{
+        display: none;
+    }
+    /* HOME */
+
+    /* menejemen pondok */
+    .menejemen-pondok{
+        width: 380px;
+        position: absolute;
+        left: 25px;
+        top: 790px;
+    }
+    .menejemen-pondok h1{
+        font-size: 18px;
+        font-weight: bolder;
+        padding: 0;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 850px){
+    .isi-home{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    .isi-home .card-kiri{
+        text-align: left;
+    }
+    .isi-home .card-kanan img{
+        width: 550px;
+        margin-top: 0;
+    }
+
+    /* MENEJEMEN PONDOK */
+    .menejemen-pondok{
+        width: 1250px;
+        position: absolute;
+        margin-left: 80px;
+        top: 690px;
+    }
+    .menejemen-pondok h1{
+        font-size: 40px;
+        padding: 100px 100px 60px 100px;
+    }
+    
+}
+
+    
