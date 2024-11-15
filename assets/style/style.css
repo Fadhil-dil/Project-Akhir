@@ -979,4 +979,11 @@ footer p{
      
 }
 
+@media screen and (min-width:1450px){
+    .menejemen-pondok{
+        margin-left: 160px;
+    }
+    
+}
+
     
